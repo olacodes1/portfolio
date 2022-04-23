@@ -1,0 +1,17 @@
+button {
+    width: 151px;
+    height: 56px;
+    border: none;
+    font-size: 1.125em;
+    font-weight: bold;
+    font-family: satoshi;
+    margin-right: 1.2em;
+    color: white;
+
+    &.main{
+        background-color: $btnColor;
+    }
+    &.btn-2{
+        background-color: #0B0B0B;
+    }
+}
