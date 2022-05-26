@@ -1,0 +1,42 @@
+.contribute {
+    margin-top: 4em;
+    margin-bottom: 4em;
+
+    h1, h3, h4 {
+        font-family: $header-font;
+        
+    }
+    
+    h3 {
+        margin-bottom: .5em;
+        font-size: 2em;
+        width: 60%;
+    }
+    h4 {
+        margin-bottom: 2em;
+        font-weight: 500;
+    }
+    
+    .figma {
+        width: 100%;
+        margin-bottom: 2.5em;
+        padding-left: 4em;
+
+        h1 {
+            font-size: 3em;
+        }
+
+        p {
+            width: 50%;
+            line-height: 1.5;
+            margin-bottom: 1em;
+        }
+
+        a {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-right: .8em;
+        }
+    }
+}

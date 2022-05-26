@@ -1,0 +1,143 @@
+@media screen and (max-width: 1024px) {
+    header h1 {
+        font-size: 2.4em !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    header, section, footer, nav {
+        padding: 0 6em;
+    }
+    header {
+        margin: 2em 0 !important;
+
+        .hero-text {
+            width: 60% !important;
+
+            p {
+                font-size: 16px !important;
+            }
+        }
+        .hero-img {
+            width: 40%;
+        }
+    }
+    header h1 {
+        font-size: 2em !important;
+    }
+
+    .figma{
+        padding-left: 1em !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header, section, footer, nav {
+        padding: 0 4em !important;
+    }
+    header {
+        flex-direction: column;
+        
+
+        .hero-img, .hero-text {
+            width: 100% !important;
+
+            p {
+                width:100%
+            }
+        }
+    }
+
+    .contribute {
+        h3 {
+            width: 100% !important;
+        }
+    }
+
+    .figma {
+        padding-left: 0 !important;
+
+        h1 {
+            font-size: 2em;
+        }
+    }
+
+    p {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header, section, footer, nav {
+        padding: 0 2em !important;
+    }
+    .works {
+        flex-direction: column;
+
+        .work {
+            width: 100%;
+        }
+    }
+
+    .contribute {
+        h3 {
+            font-size: 2em !important;
+            width: 100% !important;
+
+        }
+    }
+    
+    .figma {
+        padding-left: 0 !important;
+
+        h1 {
+            font-size: 2.5em !important;
+            margin-bottom: .2em !important;
+        }
+
+        p {
+            width: 100% !important;
+        }
+    }
+
+    footer {
+        h1 {
+            font-size: 2em !important;
+            font-family: $header-font;
+            margin-bottom: .2em;
+        }
+    }
+}
+
+@media screen and (max-width: 475px) {
+    header, section, footer, nav {
+        padding: 0 2em !important;
+    }
+    .contribute {
+        h3 {
+            font-size: 1.5em !important;
+            width: 100% !important;
+
+        }
+    }
+    
+    .figma {
+        padding-left: 0 !important;
+
+        h1 {
+            font-size: 2em !important;
+        }
+
+        p {
+            width: 100% !important;
+        }
+    }
+    
+    .social a {
+        font-size: 14px;
+    }
+
+    header, section, footer, nav {
+        padding: 0 1em !important;
+    }
+}

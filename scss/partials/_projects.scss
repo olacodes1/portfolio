@@ -1,0 +1,41 @@
+.projects h4 {
+    margin-bottom: 2em;
+}
+
+.works {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.work {
+    width: 49%;
+    margin-bottom: 2em;
+
+   .cover img {
+        width:100%;
+        object-fit: cover;
+        margin-bottom: 1.4em;
+    }
+
+    .work-info {
+        h1 {
+            font-size: 1.6em;
+            font-family: $header-font;
+            margin-bottom: .3em;
+        }
+
+        p {
+            letter-spacing: .4px;
+            margin-bottom: .6em;
+        }
+
+        a {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-right: .8em;
+        }
+    }
+}

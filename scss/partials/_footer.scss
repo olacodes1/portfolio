@@ -1,0 +1,28 @@
+footer {
+    margin-top: 2em;
+    margin-bottom: 5em !important;
+
+    h1 {
+        font-size: 3em;
+        font-family: $header-font;
+        margin-bottom: .2em;
+
+        a {
+            text-decoration: underline;
+        }
+    }
+
+    .social {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: .8em;
+        }
+    }
+}
